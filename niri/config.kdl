@@ -88,10 +88,8 @@ layout {
 }
 spawn-at-startup "xdg-desktop-portal-gtk"
 spawn-at-startup "xdg-desktop-portal-gnome"
-spawn-at-startup "nm-applet"
+spawn-at-startup "noctalia-shell"
 spawn-at-startup "undervolt"
-spawn-at-startup "awww-daemon"
-spawn-sh-at-startup "awww restore"
 spawn-at-startup "mate-polkit"
 
 hotkey-overlay {
