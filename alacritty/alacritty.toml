@@ -1,0 +1,12 @@
+[window]
+padding = { x = 10, y = 5 }
+dynamic_padding = true
+opacity = 1
+
+[font]
+normal = { family = "CaskaydiaMonoNerdFont", style = "Regular" }
+italic = { family = "CaskaydiaMonoNerdFont", style = "Italic" }
+bold = { family = "CaskaydiaMonoNerdFont", style = "Bold" }
+bold_italic = { family = "CaskaydiaMonoNerdFont", style = "Bold Italic" }
+size = 16
+

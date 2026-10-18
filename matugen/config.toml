@@ -1,0 +1,25 @@
+[config]
+reload_apps = true
+[config.wallpaper]
+command = "swww"
+arguments = [
+  "img",
+  "--transition-type",
+  "center",
+  "--transition-step",
+  "90",
+  "--transition-duration",
+  "2",
+  "--transition-fps",
+  "90",
+]
+set = true
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/dotfiles/matugen/profiles/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.ags]
+input_path = '~/.config/matugen/templates/ags.scss'
+output_path = '~/.config/ags/style/colors.scss'
